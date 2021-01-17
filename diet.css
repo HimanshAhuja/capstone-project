@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Redressed', cursive;
+    background-image: url("https://wallpaperaccess.com/full/552581.jpg");
+    color: white;
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100vw;
+}
+
+#obesity{
+    color: white;
+    font-size: 5em;
+    margin-right: 8em;
+    font-family: 'Courier New', Courier, monospace;
+} 
+
+.img{
+    height: 150px;
+    padding-left: 270px;
+    padding-top: 7px;
+}
+
+li a {
+    list-style-type: none;
+    margin: 0 135px;
+    text-decoration: none;
+    font-size: 200%;
+}
+
+
+li a:hover {
+    background-color: rgb(180, 255, 247);
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.nav1{
+    background-color: turquoise;
+    border: black solid;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    min-height: 60px;
+}
+
+li{
+    list-style: none;
+}
+
+h2{
+    font-size: 300%;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.steps{
+    font-size: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+table, th, td{
+    border: rgb(51, 255, 0) 4px solid;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 15px;
+    text-align: left;
+}
+
+th{
+    font-size: 200%;
+}
+
+@media only screen and (max-width: 600px){
+    .bg{
+        font-size: 100%;
+    }
+    .nav1{
+        width: 523px;
+    }
+    li a{
+        padding: 5px;
+        display: flex;
+    }
+    #obesity{
+        font-size: 150%;
+    }
+    
+    #img{
+        margin-left: -50px;
+        margin-top: 50px;
+    }
+}
